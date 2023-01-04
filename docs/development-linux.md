@@ -53,3 +53,15 @@ sudo update-ca-certificates
 curl -Lo bw-linux.zip https://vault.bitwarden.com/download/\?app\=cli\&platform\=linux
 unzip bw-linux.zip
 ```
+
+### Install Cargo
+
+``` shell
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+### Instll MUC
+
+``` shell
+cargo install --git=https://github.com/nate-sys/muc
+```
